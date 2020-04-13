@@ -1,0 +1,52 @@
+body {
+  width: 100vw;
+  background-color: lightcoral;
+}
+
+.header {
+  width: 100%;
+  height: 80px;
+  background-color: lightgrey;
+  display: flex;
+}
+
+.navbar {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.buttons {
+  width: 400px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 30px;
+  right: 20px;
+  
+}
+
+.start-bootstrap {
+  width: 400px;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  top: 30px;
+  left: 0px;
+}
+
+@media screen and (max-width: 991px) {
+  
+  .buttons {
+    flex-direction: column;
+    align-items: baseline;
+    min-width: 300px;
+    height: 300px;
+    left: 150px;
+    top: 100px;
+  }
+  
+}
