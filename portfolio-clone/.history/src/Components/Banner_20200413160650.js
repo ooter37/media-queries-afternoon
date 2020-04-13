@@ -24,7 +24,10 @@ export default class Banner extends React.Component {
             <header className='header'>
                 <nav>
                     <div className='start-bootstrap'>Start Bootstrap</div>
-                            <button className='menu-button' onClick={() => this.toggleSidebar()}>Menu <i class="fa fa-bars"></i></button>
+                            <button className='menu-button' onClick={() => this.toggleSidebar()}>
+                                Menu
+                                <i class="fa fa-bars" style="font-size:24px"></i>
+                            </button>
                             <div className={this.state.hideSidebar ? 'hide': ''}>
                                 <div className='buttons-background'>
                                     <div className='buttons'>

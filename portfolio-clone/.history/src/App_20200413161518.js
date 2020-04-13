@@ -10,7 +10,6 @@ function App() {
       <div className='greetings'>
         <h2 className='welcome'>Welcome To Our Studio!</h2>
         <h1 className='meet'>IT'S NICE TO MEET YOU</h1>
-        <button className='tell-more'>TELL ME MORE</button>
       </div>
     </div>
   );

@@ -1,10 +1,8 @@
 
 body {
   width: 100vw;
-  height: 200vh;
   background-image: url('https://blackrockdigital.github.io/startbootstrap-agency/img/header-bg.jpg');
   background-size: auto;
-  background-repeat: no-repeat;
 }
 
 .header {
@@ -22,7 +20,7 @@ body {
   position: fixed;
   top: 30px;
   right: 20px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: Montserrat,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji';
   font-weight: 400;
 }
 
@@ -104,7 +102,7 @@ a {
   font-size: 40px;
   font-style: italic;
   margin-bottom: 20px;
-  font-family: 'Droid Serif';
+  font-weight: bold;
 }
 .meet {
   font-size: 75px;

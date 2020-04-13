@@ -1,10 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Montserrat&display=swap');
 
 body {
   width: 100vw;
-  height: 200vh;
   background-image: url('https://blackrockdigital.github.io/startbootstrap-agency/img/header-bg.jpg');
-  background-size: auto;
-  background-repeat: no-repeat;
 }
 
 .header {
@@ -13,8 +11,10 @@ body {
   display: flex;
 }
 
+
+
 .buttons {
-  width: 500px;
+  width: 400px;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
@@ -23,7 +23,7 @@ body {
   top: 30px;
   right: 20px;
   font-family: 'Montserrat', sans-serif;
-  font-weight: 400;
+  font-weight: bold;
 }
 
 a {
@@ -31,7 +31,7 @@ a {
   text-decoration: none;
 }
 .button:hover {
-  color: #fed136
+  color: #F5D137
 }
 
 .start-bootstrap {
@@ -41,7 +41,7 @@ a {
   position: fixed;
   top: 20px;
   left: 0px;
-  color: #fed136;
+  color: #F5D137;
   font-family: 'Kaushan Script', cursive;
   font-size: 26px;
   font-style: italic;
@@ -62,7 +62,9 @@ a {
     top: 60px;
     
   }
-
+  .header {
+    background-color: #212529;
+  }
   .buttons-background {
     width: 100vw;
     height: 400px;
@@ -71,7 +73,7 @@ a {
     display: none;
   }
   .menu-button {
-    background-color: #fed136;
+    background-color: #F5D137;
     position: fixed;
     height: 35px;
     width: 70px;
@@ -89,37 +91,4 @@ a {
   .menu-button {
     display: none;
   }
-}
-.greetings {
-  height: 700px;
-  display: flex;
-	flex-direction: column;
-	flex-wrap: nowrap;
-	justify-content: center;
-	align-items: center;
-  align-content: stretch;
-  color: white;
-}
-.welcome {
-  font-size: 40px;
-  font-style: italic;
-  margin-bottom: 20px;
-  font-family: 'Droid Serif';
-}
-.meet {
-  font-size: 75px;
-  font-weight: 700;
-  font-family: Montserrat;
-  margin-bottom: 40px;
-}
-.tell-more {
-  width: 150px;
-  height: 50px;
-  background-color: #fed136;
-  border: none;
-  border-radius: 5px;
-  color: white;
-  font-size: 14px;
-  font-family: Montserrat;
-  font-weight: 800;
 }

@@ -1,10 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Montserrat&display=swap');
 
 body {
   width: 100vw;
-  height: 200vh;
   background-image: url('https://blackrockdigital.github.io/startbootstrap-agency/img/header-bg.jpg');
   background-size: auto;
-  background-repeat: no-repeat;
 }
 
 .header {
@@ -14,7 +13,7 @@ body {
 }
 
 .buttons {
-  width: 500px;
+  width: 400px;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
@@ -23,7 +22,7 @@ body {
   top: 30px;
   right: 20px;
   font-family: 'Montserrat', sans-serif;
-  font-weight: 400;
+  font-weight: bold;
 }
 
 a {
@@ -31,7 +30,7 @@ a {
   text-decoration: none;
 }
 .button:hover {
-  color: #fed136
+  color: #F5D137
 }
 
 .start-bootstrap {
@@ -41,7 +40,7 @@ a {
   position: fixed;
   top: 20px;
   left: 0px;
-  color: #fed136;
+  color: #F5D137;
   font-family: 'Kaushan Script', cursive;
   font-size: 26px;
   font-style: italic;
@@ -71,7 +70,7 @@ a {
     display: none;
   }
   .menu-button {
-    background-color: #fed136;
+    background-color: #F5D137;
     position: fixed;
     height: 35px;
     width: 70px;
@@ -104,7 +103,7 @@ a {
   font-size: 40px;
   font-style: italic;
   margin-bottom: 20px;
-  font-family: 'Droid Serif';
+  font-weight: bold;
 }
 .meet {
   font-size: 75px;
@@ -115,11 +114,8 @@ a {
 .tell-more {
   width: 150px;
   height: 50px;
-  background-color: #fed136;
+  background-color: #F5D137;
   border: none;
   border-radius: 5px;
   color: white;
-  font-size: 14px;
-  font-family: Montserrat;
-  font-weight: 800;
 }

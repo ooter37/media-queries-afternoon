@@ -1,10 +1,8 @@
 
 body {
   width: 100vw;
-  height: 200vh;
   background-image: url('https://blackrockdigital.github.io/startbootstrap-agency/img/header-bg.jpg');
   background-size: auto;
-  background-repeat: no-repeat;
 }
 
 .header {
@@ -14,7 +12,7 @@ body {
 }
 
 .buttons {
-  width: 500px;
+  width: 600px;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
@@ -104,7 +102,7 @@ a {
   font-size: 40px;
   font-style: italic;
   margin-bottom: 20px;
-  font-family: 'Droid Serif';
+  font-weight: bold;
 }
 .meet {
   font-size: 75px;
