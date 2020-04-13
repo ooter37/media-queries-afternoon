@@ -25,7 +25,7 @@ export default class Banner extends React.Component {
                 <nav>
                     <div className='start-bootstrap'>Start Bootstrap</div>
                             <button className='menu-button' onClick={() => this.toggleSidebar()}>Menu</button>
-                            <div className={this.state.hideSidebar ? 'hide': ''}>
+                            <div className={this.state.hideSidebar ? '': 'hide'}>
                                 <div className='buttons-background'>
                                     <div className='buttons'>
                                         <div>SERVICES</div>

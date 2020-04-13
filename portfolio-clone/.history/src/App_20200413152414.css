@@ -64,8 +64,8 @@ body {
   }
 }
 
-@media screen and (min-width: 992px) {
-  .menu-button {
+@media (min-width: 992px) {
+  menu-button {
     display: none;
   }
 }

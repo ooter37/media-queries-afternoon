@@ -9,7 +9,12 @@ body {
   display: flex;
 }
 
-
+.menu-button {
+  background-color: yellow;
+  position: fixed;
+  top: 20px;
+  right: 20px;
+}
 
 .buttons {
   width: 400px;
@@ -40,6 +45,10 @@ body {
     background-color: #212529;
   }
   .buttons {
+    display: none;
+  }
+
+  .hidden-buttons {
     flex-direction: column;
     align-items: baseline;
     justify-content: space-around;
@@ -47,25 +56,12 @@ body {
     height: 150px;
     left: 147px;
     top: 50px;
- 
+    
   }
   .buttons-background {
     width: 100vw;
     height: 400px;
   }
-  .hide {
-    display: none;
-  }
-  .menu-button {
-    background-color: yellow;
-    position: fixed;
-    top: 20px;
-    right: 20px;
-  }
+
 }
 
-@media screen and (min-width: 992px) {
-  .menu-button {
-    display: none;
-  }
-}

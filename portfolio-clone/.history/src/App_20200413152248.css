@@ -9,7 +9,9 @@ body {
   display: flex;
 }
 
-
+.menu-button {
+  display: none;
+}
 
 .buttons {
   width: 400px;
@@ -64,8 +66,3 @@ body {
   }
 }
 
-@media screen and (min-width: 992px) {
-  .menu-button {
-    display: none;
-  }
-}

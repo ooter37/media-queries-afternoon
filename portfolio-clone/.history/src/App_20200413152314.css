@@ -61,11 +61,7 @@ body {
     position: fixed;
     top: 20px;
     right: 20px;
+    
   }
 }
 
-@media screen and (min-width: 992px) {
-  .menu-button {
-    display: none;
-  }
-}

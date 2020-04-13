@@ -6,7 +6,7 @@ export default class Banner extends React.Component {
     constructor() {
         super()
         this.state = {
-            hideSidebar: true
+            hideSidebar: false
         }
     }
 
@@ -25,7 +25,7 @@ export default class Banner extends React.Component {
                 <nav>
                     <div className='start-bootstrap'>Start Bootstrap</div>
                             <button className='menu-button' onClick={() => this.toggleSidebar()}>Menu</button>
-                            <div className={this.state.hideSidebar ? 'hide': ''}>
+                            <div className={this.state.hideSidebar ? '': 'hide'}>
                                 <div className='buttons-background'>
                                     <div className='buttons'>
                                         <div>SERVICES</div>
@@ -37,6 +37,7 @@ export default class Banner extends React.Component {
                                 </div>
                             </div>
                 </nav>
+                {/* <div className={this.state.hideSidebar ? 'hidden-buttons': ' buttons'}> */}
             </header>
         )
     }

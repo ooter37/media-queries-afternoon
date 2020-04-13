@@ -9,7 +9,12 @@ body {
   display: flex;
 }
 
-
+.menu-button {
+  background-color: yellow;
+  position: fixed;
+  top: 20px;
+  right: 20px;
+}
 
 .buttons {
   width: 400px;
@@ -47,25 +52,14 @@ body {
     height: 150px;
     left: 147px;
     top: 50px;
- 
+
   }
   .buttons-background {
     width: 100vw;
     height: 400px;
   }
-  .hide {
-    display: none;
-  }
-  .menu-button {
-    background-color: yellow;
-    position: fixed;
-    top: 20px;
-    right: 20px;
-  }
 }
 
-@media screen and (min-width: 992px) {
-  .menu-button {
-    display: none;
-  }
+nav .show {
+  display: 
 }
