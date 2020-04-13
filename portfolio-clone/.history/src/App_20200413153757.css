@@ -1,8 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Montserrat&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Montserrat&display=swap')
 body {
   width: 100vw;
-  background-image: url('https://blackrockdigital.github.io/startbootstrap-agency/img/header-bg.jpg');
 }
 
 .header {
